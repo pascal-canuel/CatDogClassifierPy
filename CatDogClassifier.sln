@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CatDogClassifier", "CatDogClassifier\CatDogClassifier.pyproj", "{458B8B44-3900-4678-90B2-910A1EA7E7B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{458B8B44-3900-4678-90B2-910A1EA7E7B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{458B8B44-3900-4678-90B2-910A1EA7E7B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B6FC5D2-F641-4977-92D8-00214D3F28CF}
+	EndGlobalSection
+EndGlobal
