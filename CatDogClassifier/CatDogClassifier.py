@@ -7,8 +7,6 @@ https://www.kaggle.com/tongpython/cat-and-dog
 https://www.kaggle.com/c/dogs-vs-cats/data
 
 Links:
-https://github.com/ardamavi/Dog-Cat-Classifier
-
 https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
 '''
 
