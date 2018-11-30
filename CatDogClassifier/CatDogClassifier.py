@@ -5,7 +5,7 @@ By: Pascal Canuel, William Garneau & Isaac Fiset
 Dataset:
 https://www.kaggle.com/tongpython/cat-and-dog
 https://www.kaggle.com/c/dogs-vs-cats/data
-
+https://www.microsoft.com/en-us/download/details.aspx?id=54765 ** The good one
 Links:
 https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
 '''
@@ -113,7 +113,7 @@ def plot_value_array(i, predictions_array, true_label):
   plt.grid(False)
   plt.xticks([])
   plt.yticks([])
-  thisplot = plt.bar(range(10), predictions_array, color="#777777")
+  thisplot = plt.bar(range(2), predictions_array, color="#777777")
   plt.ylim([0, 1]) 
   predicted_label = np.argmax(predictions_array)
  
