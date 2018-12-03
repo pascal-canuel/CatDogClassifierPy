@@ -4,13 +4,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>458b8b44-3900-4678-90b2-910a1ea7e7b6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>CatDogClassifier.py</StartupFile>
+    <StartupFile>predict.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>CatDogClassifier</Name>
     <RootNamespace>CatDogClassifier</RootNamespace>
+    <InterpreterId>CondaEnv|CondaEnv|tf-gpu</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +22,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="CatDogClassifier.py" />
+    <Compile Include="train.py" />
+    <Compile Include="predict.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="CondaEnv|CondaEnv|tf-gpu" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
