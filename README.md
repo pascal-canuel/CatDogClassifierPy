@@ -2,7 +2,7 @@
 ## Command
 `python predict.py <ImgFileName>`
 
-## Real life example
+## Real life example (with my cat)
 | <img src="CatDogClassifier/mycat2.jpg" width="200">|
 |:-:|
 |Cat: 0.80318516<br/>Dog: 0.01585233|
